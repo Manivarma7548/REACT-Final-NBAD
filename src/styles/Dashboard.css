@@ -1,0 +1,98 @@
+.personalbudget {
+  text-align: center;
+  font-size: 2rem;
+  color: #d54747;
+  margin-top: 20px;
+}
+
+.logout-button {
+  position: fixed;
+  top: 20px; /* Adjusted top position */
+  left: 20px; /* Moved to the left */
+  background-color: #500eeb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+
+.dashboard {
+  background-color: #f9f9f9; /* Updated background color */
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(205, 53, 53, 0.1);
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.dashboard ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dashboard button {
+  background-color: #681973;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #2acfe5;
+}
+
+.centered-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a67070; /* Updated background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(13, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dashboard-modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.dashboard-modal p {
+  margin-bottom: 20px;
+}
+
+.dashboard-modal button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #437ecd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-modal button:hover {
+  background-color: #345a8d;
+}

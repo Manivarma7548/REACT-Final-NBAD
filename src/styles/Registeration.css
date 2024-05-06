@@ -1,0 +1,72 @@
+/* RegisterationStyles.css */
+
+.Registeration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Registeration-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.Registeration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Registeration-label {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.Registeration-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.Registeration-button {
+  background-color: #ff0059;
+  color: white;
+  border: none;
+  padding: 15px 0;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.Registeration-button:hover {
+  background-color: #8f147f;
+}
+
+.dialog {
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.success {
+  background-color: #721d87;
+  color: white;
+}
+
+.error {
+  background-color: #dc3545;
+  color: white;
+}

@@ -1,0 +1,68 @@
+.add-budget-container {
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.header {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.select-dropdown,
+.input-field,
+.add-budget-button {
+    margin: 15px 0;
+    padding: 15px;
+    width: calc(100% - 30px);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.select-dropdown {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.input-field {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.add-budget-button {
+    background-color: #681973;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-budget-button:hover {
+    background-color: #681973;
+}
+
+.capacity-table {
+    width: 90%; /* Increased width */
+    border-collapse: collapse;
+    margin: 50px auto; /* Center the table */
+    text-align: center;
+}
+
+.capacity-table th,
+.capacity-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.capacity-table th {
+    background-color: #681973;
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+/* Footer.css */
+
+.footer {
+  background-color: #810606;
+  color: #faf2f2;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding */
+  width: 100%; /* Ensure the footer covers the entire width */
+  position: fixed; /* Fix the footer at the bottom of the viewport */
+  left: 0;
+  bottom: 0;
+}
